@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142346"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "member_group",
+  "fields": [],
+  "name": "MemberGroup",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "memberGroup",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

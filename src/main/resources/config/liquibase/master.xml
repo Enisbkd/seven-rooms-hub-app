@@ -11,7 +11,28 @@
     <property name="datetimeType" value="datetime" dbms="oracle"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142246_added_entity_Client.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142346_added_entity_MemberGroup.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142446_added_entity_ClientTag.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142546_added_entity_CustomField.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142646_added_entity_ClientVenueStats.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142746_added_entity_ClientPhoto.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142846_added_entity_Reservation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142946_added_entity_ResCustomField.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143046_added_entity_ResPosTicket.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143146_added_entity_ResPosticketsItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143246_added_entity_ResTag.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143346_added_entity_TableNumber.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20231227142246_added_entity_constraints_Client.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142346_added_entity_constraints_MemberGroup.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142446_added_entity_constraints_ClientTag.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142546_added_entity_constraints_CustomField.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142846_added_entity_constraints_Reservation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227142946_added_entity_constraints_ResCustomField.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143046_added_entity_constraints_ResPosTicket.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143146_added_entity_constraints_ResPosticketsItem.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231227143246_added_entity_constraints_ResTag.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

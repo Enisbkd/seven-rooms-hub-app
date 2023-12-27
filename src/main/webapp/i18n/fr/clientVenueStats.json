@@ -1,0 +1,46 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "clientVenueStats": {
+      "home": {
+        "title": "ClientVenueStats",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Client Venue Stats",
+        "createOrEditLabel": "Créer ou éditer un Client Venue Stats",
+        "notFound": "Aucun Client Venue Stats trouvé"
+      },
+      "created": "Un nouveau Client Venue Stats a été créé avec l'identifiant { param }",
+      "updated": "Le Client Venue Stats avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Client Venue Stats avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Client Venue Stats { id } ?"
+      },
+      "detail": {
+        "title": "Client Venue Stats"
+      },
+      "id": "ID",
+      "venueId": "Venue Id",
+      "avgRating": "Avg Rating",
+      "bookedByNames": "Booked By Names",
+      "lastVisitDate": "Last Visit Date",
+      "numRatings": "Num Ratings",
+      "totalCancellations": "Total Cancellations",
+      "totalCovers": "Total Covers",
+      "totalNoShows": "Total No Shows",
+      "totalSpend": "Total Spend",
+      "totalSpendLocal": "Total Spend Local",
+      "totalSpendLocalperCover": "Total Spend Localper Cover",
+      "totalSpendLocalPerVisit": "Total Spend Local Per Visit",
+      "totalSpendperCover": "Total Spendper Cover",
+      "totalSpendPerVisit": "Total Spend Per Visit",
+      "totalVisit": "Total Visit",
+      "venueMarketingOptin": "Venue Marketing Optin",
+      "venueMarketingOptints": "Venue Marketing Optints",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment",
+      "client": "Client"
+    }
+  }
+}
