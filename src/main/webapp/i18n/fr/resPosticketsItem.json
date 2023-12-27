@@ -1,0 +1,31 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "resPosticketsItem": {
+      "home": {
+        "title": "ResPosticketsItems",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Res Postickets Item",
+        "createOrEditLabel": "Créer ou éditer un Res Postickets Item",
+        "notFound": "Aucun Res Postickets Item trouvé"
+      },
+      "created": "Un nouveau Res Postickets Item a été créé avec l'identifiant { param }",
+      "updated": "Le Res Postickets Item avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Res Postickets Item avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Res Postickets Item { id } ?"
+      },
+      "detail": {
+        "title": "Res Postickets Item"
+      },
+      "id": "ID",
+      "price": "Price",
+      "name": "Name",
+      "quantity": "Quantity",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment"
+    }
+  }
+}

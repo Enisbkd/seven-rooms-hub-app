@@ -1,0 +1,59 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142546"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "custom_field",
+  "fields": [
+    {
+      "fieldName": "systemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "displayOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techLineage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techCreatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techUpdatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techMapping",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techComment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "CustomField",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "customField",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

@@ -1,0 +1,41 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "resPosTicket": {
+      "home": {
+        "title": "ResPosTickets",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Res Pos Ticket",
+        "createOrEditLabel": "Créer ou éditer un Res Pos Ticket",
+        "notFound": "Aucun Res Pos Ticket trouvé"
+      },
+      "created": "Un nouveau Res Pos Ticket a été créé avec l'identifiant { param }",
+      "updated": "Le Res Pos Ticket avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Res Pos Ticket avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Res Pos Ticket { id } ?"
+      },
+      "detail": {
+        "title": "Res Pos Ticket"
+      },
+      "id": "ID",
+      "status": "Status",
+      "adminFee": "Admin Fee",
+      "code": "Code",
+      "tableNo": "Table No",
+      "tax": "Tax",
+      "businessId": "Business Id",
+      "localPosticketId": "Local Posticket Id",
+      "employeeName": "Employee Name",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "startTime": "Start Time",
+      "serviceCharge": "Service Charge",
+      "endtime": "Endtime",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "memberGroup": {
+      "home": {
+        "title": "MemberGroups",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Member Group",
+        "createOrEditLabel": "Créer ou éditer un Member Group",
+        "notFound": "Aucun Member Group trouvé"
+      },
+      "created": "Un nouveau Member Group a été créé avec l'identifiant { param }",
+      "updated": "Le Member Group avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Member Group avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Member Group { id } ?"
+      },
+      "detail": {
+        "title": "Member Group"
+      },
+      "id": "ID",
+      "client": "Client"
+    }
+  }
+}
