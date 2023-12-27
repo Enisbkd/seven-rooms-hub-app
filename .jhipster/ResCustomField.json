@@ -1,0 +1,59 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142946"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "res_custom_field",
+  "fields": [
+    {
+      "fieldName": "systemName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "displayOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techLineage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techCreatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techUpdatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techMapping",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techComment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ResCustomField",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "resCustomField",
+      "relationshipName": "reservation",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
