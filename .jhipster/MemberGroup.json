@@ -1,0 +1,19 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142346"
+  },
+  "applications": "*",
+  "entityTableName": "member_group",
+  "fields": [],
+  "name": "MemberGroup",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "memberGroup",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

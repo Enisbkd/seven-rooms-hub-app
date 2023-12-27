@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20231227143346"
+  },
+  "applications": "*",
+  "entityTableName": "table_number",
+  "fields": [
+    {
+      "fieldName": "tableNum",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "TableNumber",
+  "relationships": [],
+  "searchEngine": "no"
+}

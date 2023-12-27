@@ -1,0 +1,100 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142746"
+  },
+  "applications": "*",
+  "entityTableName": "client_photo",
+  "fields": [
+    {
+      "fieldName": "clientId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "large",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "largeHeight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "largeWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "medium",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mediumHeight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "mediumWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "small",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "smallHeight",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "smallWidth",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "raw",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cropx",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cropy",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "cropHeight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "cropWidth",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "techLineage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techCreatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techUpdatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techMapping",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techComment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ClientPhoto",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "clientPhoto",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

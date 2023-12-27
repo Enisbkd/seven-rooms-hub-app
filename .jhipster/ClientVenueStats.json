@@ -1,0 +1,108 @@
+{
+  "annotations": {
+    "changelogDate": "20231227142646"
+  },
+  "applications": "*",
+  "entityTableName": "client_venue_stats",
+  "fields": [
+    {
+      "fieldName": "venueId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "avgRating",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "bookedByNames",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastVisitDate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numRatings",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "totalCancellations",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "totalCovers",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "totalNoShows",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "totalSpend",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalSpendLocal",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalSpendLocalperCover",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalSpendLocalPerVisit",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalSpendperCover",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalSpendPerVisit",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "totalVisit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "venueMarketingOptin",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "venueMarketingOptints",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techLineage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techCreatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techUpdatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techMapping",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techComment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ClientVenueStats",
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "clientVenueStats",
+      "relationshipName": "client",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

@@ -1,0 +1,33 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "resTag": {
+      "home": {
+        "title": "ResTags",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Res Tag",
+        "createOrEditLabel": "Créer ou éditer un Res Tag",
+        "notFound": "Aucun Res Tag trouvé"
+      },
+      "created": "Un nouveau Res Tag a été créé avec l'identifiant { param }",
+      "updated": "Le Res Tag avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Res Tag avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Res Tag { id } ?"
+      },
+      "detail": {
+        "title": "Res Tag"
+      },
+      "id": "ID",
+      "tag": "Tag",
+      "tagDisplay": "Tag Display",
+      "group": "Group",
+      "groupDisplay": "Group Display",
+      "color": "Color",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment"
+    }
+  }
+}
