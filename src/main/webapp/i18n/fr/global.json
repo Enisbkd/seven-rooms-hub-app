@@ -7,7 +7,19 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entités",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "client": "Client",
+        "memberGroup": "Member Group",
+        "clientTag": "Client Tag",
+        "customField": "Custom Field",
+        "clientVenueStats": "Client Venue Stats",
+        "clientPhoto": "Client Photo",
+        "reservation": "Reservation",
+        "resCustomField": "Res Custom Field",
+        "resPosTicket": "Res Pos Ticket",
+        "resPosticketsItem": "Res Postickets Item",
+        "resTag": "Res Tag",
+        "tableNum": "Table Num"
       },
       "account": {
         "main": "Compte",

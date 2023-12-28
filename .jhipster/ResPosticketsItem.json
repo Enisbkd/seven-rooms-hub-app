@@ -1,0 +1,55 @@
+{
+  "annotations": {
+    "changelogDate": "20231227143146"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "res_postickets_item",
+  "fields": [
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "techLineage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techCreatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techUpdatedDate",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "techMapping",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "techComment",
+      "fieldType": "String"
+    }
+  ],
+  "name": "ResPosticketsItem",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "resPosTicket",
+      "otherEntityRelationshipName": "resPosticketsItem",
+      "relationshipName": "resPosTicket",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
