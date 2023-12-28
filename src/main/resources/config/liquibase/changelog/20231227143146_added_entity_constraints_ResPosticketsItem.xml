@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity ResPosticketsItem.
+    -->
+    <changeSet id="20231227143146-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="res_pos_ticket_id"
+                                 baseTableName="res_postickets_item"
+                                 constraintName="fk_res_postickets_item__res_pos_ticket_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="res_pos_ticket"
+                                 />
+    </changeSet>
+</databaseChangeLog>

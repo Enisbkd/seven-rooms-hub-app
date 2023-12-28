@@ -48,6 +48,27 @@ public class CacheConfiguration {
             createCache(cm, com.sbm.sevenroomstohub.domain.User.class.getName());
             createCache(cm, com.sbm.sevenroomstohub.domain.Authority.class.getName());
             createCache(cm, com.sbm.sevenroomstohub.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Client.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.Client.class.getName() + ".customFields");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Client.class.getName() + ".clientTags");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Client.class.getName() + ".reservations");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Client.class.getName() + ".memberGroups");
+            createCache(cm, com.sbm.sevenroomstohub.domain.MemberGroup.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ClientTag.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.CustomField.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ClientVenueStats.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ClientPhoto.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.Reservation.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.Reservation.class.getName() + ".resTags");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Reservation.class.getName() + ".resPosTickets");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Reservation.class.getName() + ".resCustomFields");
+            createCache(cm, com.sbm.sevenroomstohub.domain.Reservation.class.getName() + ".tables");
+            createCache(cm, com.sbm.sevenroomstohub.domain.ResCustomField.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ResPosTicket.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ResPosTicket.class.getName() + ".resPosticketsItems");
+            createCache(cm, com.sbm.sevenroomstohub.domain.ResPosticketsItem.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.ResTag.class.getName());
+            createCache(cm, com.sbm.sevenroomstohub.domain.Table.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
