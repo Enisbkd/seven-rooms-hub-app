@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20231227143346"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "jhi_table",
+  "fields": [
+    {
+      "fieldName": "tableNumber",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Table",
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "table",
+      "relationshipName": "reservation",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

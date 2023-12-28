@@ -1,0 +1,33 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "resCustomField": {
+      "home": {
+        "title": "ResCustomFields",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Res Custom Field",
+        "createOrEditLabel": "Créer ou éditer un Res Custom Field",
+        "notFound": "Aucun Res Custom Field trouvé"
+      },
+      "created": "Un nouveau Res Custom Field a été créé avec l'identifiant { param }",
+      "updated": "Le Res Custom Field avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Res Custom Field avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Res Custom Field { id } ?"
+      },
+      "detail": {
+        "title": "Res Custom Field"
+      },
+      "id": "ID",
+      "systemName": "System Name",
+      "displayOrder": "Display Order",
+      "name": "Name",
+      "value": "Value",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment",
+      "reservation": "Reservation"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "clientTag": {
+      "home": {
+        "title": "ClientTags",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Client Tag",
+        "createOrEditLabel": "Créer ou éditer un Client Tag",
+        "notFound": "Aucun Client Tag trouvé"
+      },
+      "created": "Un nouveau Client Tag a été créé avec l'identifiant { param }",
+      "updated": "Le Client Tag avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Client Tag avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Client Tag { id } ?"
+      },
+      "detail": {
+        "title": "Client Tag"
+      },
+      "id": "ID",
+      "tag": "Tag",
+      "tagDisplay": "Tag Display",
+      "group": "Group",
+      "groupDisplay": "Group Display",
+      "color": "Color",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment",
+      "client": "Client"
+    }
+  }
+}
