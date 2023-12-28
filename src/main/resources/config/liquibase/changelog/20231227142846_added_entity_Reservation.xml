@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Reservation.
+    -->
+    <changeSet id="20231227142846-1" author="jhipster">
+        <createTable tableName="reservation">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="resv_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="created" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="updated" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="deleted" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="venue_group_client_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="venue_group_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="venue_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="jhi_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="duration" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="check_numbers" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="shift_category" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="shift_persistent_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="max_guests" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="mfratio_male" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="mfratio_female" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="status_display" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="status_simple" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="table_numbers" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="access_persistent_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="arrived_guests" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="isvip" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="bookedby" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_reference_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lastname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="firstname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="email" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="address" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="address_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="postal_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="state" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="country" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_rank" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_tier" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="notes" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="arrival_time" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="seated_time" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="left_time" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_requests" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comps" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="comps_price_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cost_option" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="policy" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="min_price" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="pre_payment" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="onsite_payment" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_payment" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="paid_by" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="served_by" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="rating" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="problems" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="auto_assignments" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="external_client_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="external_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="external_reference_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="external_user_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="modify_reservation_link" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="reference_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="reservation_sms_optin" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="reservation_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="send_reminder_email" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="sendreminder_sms" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="source_client_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="user_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="user_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_lineage" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_created_date" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_updated_date" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_mapping" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_comment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+        <dropDefaultValue tableName="reservation" columnName="tech_created_date" columnDataType="${datetimeType}"/>
+        <dropDefaultValue tableName="reservation" columnName="tech_updated_date" columnDataType="${datetimeType}"/>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20231227142846-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/reservation.csv"
+                  separator=";"
+                  tableName="reservation"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="resv_id" type="string"/>
+            <column name="created" type="string"/>
+            <column name="updated" type="string"/>
+            <column name="deleted" type="string"/>
+            <column name="venue_group_client_id" type="string"/>
+            <column name="venue_group_id" type="string"/>
+            <column name="venue_id" type="string"/>
+            <column name="jhi_date" type="string"/>
+            <column name="duration" type="numeric"/>
+            <column name="check_numbers" type="string"/>
+            <column name="shift_category" type="string"/>
+            <column name="shift_persistent_id" type="string"/>
+            <column name="max_guests" type="numeric"/>
+            <column name="mfratio_male" type="numeric"/>
+            <column name="mfratio_female" type="numeric"/>
+            <column name="status" type="string"/>
+            <column name="status_display" type="string"/>
+            <column name="status_simple" type="string"/>
+            <column name="table_numbers" type="string"/>
+            <column name="access_persistent_id" type="string"/>
+            <column name="arrived_guests" type="numeric"/>
+            <column name="isvip" type="boolean"/>
+            <column name="bookedby" type="string"/>
+            <column name="client_reference_code" type="string"/>
+            <column name="lastname" type="string"/>
+            <column name="firstname" type="string"/>
+            <column name="email" type="string"/>
+            <column name="phone_number" type="string"/>
+            <column name="address" type="string"/>
+            <column name="address_2" type="string"/>
+            <column name="city" type="string"/>
+            <column name="postal_code" type="string"/>
+            <column name="state" type="string"/>
+            <column name="country" type="string"/>
+            <column name="loyalty_id" type="string"/>
+            <column name="loyalty_rank" type="numeric"/>
+            <column name="loyalty_tier" type="string"/>
+            <column name="notes" type="string"/>
+            <column name="arrival_time" type="string"/>
+            <column name="seated_time" type="string"/>
+            <column name="left_time" type="string"/>
+            <column name="client_requests" type="string"/>
+            <column name="comps" type="numeric"/>
+            <column name="comps_price_type" type="string"/>
+            <column name="cost_option" type="numeric"/>
+            <column name="policy" type="string"/>
+            <column name="min_price" type="numeric"/>
+            <column name="pre_payment" type="numeric"/>
+            <column name="onsite_payment" type="numeric"/>
+            <column name="total_payment" type="numeric"/>
+            <column name="paid_by" type="string"/>
+            <column name="served_by" type="string"/>
+            <column name="rating" type="numeric"/>
+            <column name="problems" type="string"/>
+            <column name="auto_assignments" type="string"/>
+            <column name="external_client_id" type="string"/>
+            <column name="external_id" type="string"/>
+            <column name="external_reference_code" type="string"/>
+            <column name="external_user_id" type="string"/>
+            <column name="modify_reservation_link" type="string"/>
+            <column name="reference_code" type="string"/>
+            <column name="reservation_sms_optin" type="boolean"/>
+            <column name="reservation_type" type="string"/>
+            <column name="send_reminder_email" type="boolean"/>
+            <column name="sendreminder_sms" type="boolean"/>
+            <column name="source_client_id" type="string"/>
+            <column name="user_id" type="string"/>
+            <column name="user_name" type="string"/>
+            <column name="tech_lineage" type="string"/>
+            <column name="tech_created_date" type="date"/>
+            <column name="tech_updated_date" type="date"/>
+            <column name="tech_mapping" type="string"/>
+            <column name="tech_comment" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>

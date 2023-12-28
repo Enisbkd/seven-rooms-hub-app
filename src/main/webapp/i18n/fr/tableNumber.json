@@ -1,0 +1,24 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "tableNumber": {
+      "home": {
+        "title": "TableNumbers",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Table Number",
+        "createOrEditLabel": "Créer ou éditer un Table Number",
+        "notFound": "Aucun Table Number trouvé"
+      },
+      "created": "Un nouveau Table Number a été créé avec l'identifiant { param }",
+      "updated": "Le Table Number avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Table Number avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Table Number { id } ?"
+      },
+      "detail": {
+        "title": "Table Number"
+      },
+      "id": "ID",
+      "tableNum": "Table Num"
+    }
+  }
+}

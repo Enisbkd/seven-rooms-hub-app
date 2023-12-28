@@ -1,0 +1,44 @@
+{
+  "sevenRoomsToHubApplicationApp": {
+    "clientPhoto": {
+      "home": {
+        "title": "ClientPhotos",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Client Photo",
+        "createOrEditLabel": "Créer ou éditer un Client Photo",
+        "notFound": "Aucun Client Photo trouvé"
+      },
+      "created": "Un nouveau Client Photo a été créé avec l'identifiant { param }",
+      "updated": "Le Client Photo avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Client Photo avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Client Photo { id } ?"
+      },
+      "detail": {
+        "title": "Client Photo"
+      },
+      "id": "ID",
+      "clientId": "Client Id",
+      "large": "Large",
+      "largeHeight": "Large Height",
+      "largeWidth": "Large Width",
+      "medium": "Medium",
+      "mediumHeight": "Medium Height",
+      "mediumWidth": "Medium Width",
+      "small": "Small",
+      "smallHeight": "Small Height",
+      "smallWidth": "Small Width",
+      "raw": "Raw",
+      "cropx": "Cropx",
+      "cropy": "Cropy",
+      "cropHeight": "Crop Height",
+      "cropWidth": "Crop Width",
+      "techLineage": "Tech Lineage",
+      "techCreatedDate": "Tech Created Date",
+      "techUpdatedDate": "Tech Updated Date",
+      "techMapping": "Tech Mapping",
+      "techComment": "Tech Comment",
+      "client": "Client"
+    }
+  }
+}
