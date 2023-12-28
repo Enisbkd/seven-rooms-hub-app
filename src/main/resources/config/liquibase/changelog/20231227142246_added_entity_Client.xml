@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Client.
+    -->
+    <changeSet id="20231227142246-1" author="jhipster">
+        <createTable tableName="client">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="client_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="created_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="updated_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="deleted_date" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="lastname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="firstname" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="gender" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="salutation" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="title" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="birthday_day" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="birthday_month" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="birthday_alt_month" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="anniversary_day" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="anniversary_month" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="company" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="email" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="email_alt" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_number" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_numberlocale" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_numberalt" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="phone_numberaltlocale" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="address" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="address_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="postal_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="state" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="country" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_contact_private" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="is_onetime_guest" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="status" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_rank" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="loyalty_tier" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="marketing_optin" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="marketing_optints" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="marketing_opt_outts" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="has_billing_profile" type="boolean">
+                <constraints nullable="true" />
+            </column>
+            <column name="notes" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="private_notes" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tags" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_visits" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_covers" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_cancellations" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_no_shows" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_spend" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_spend_per_cover" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="totalspend_per_visit" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="avg_rating" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="reference_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="external_user_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="venue_group_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="birthday_alt_day" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="user_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="user_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="total_order_count" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="preferred_language_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_lineage" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_created_date" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_updated_date" type="${datetimeType}">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_mapping" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tech_comment" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="client_photo_id" type="bigint">
+                <constraints nullable="true" unique="true" uniqueConstraintName="ux_client__client_photo_id" />
+            </column>
+            <column name="client_venue_stats_id" type="bigint">
+                <constraints nullable="true" unique="true" uniqueConstraintName="ux_client__client_venue_stats_id" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+        <dropDefaultValue tableName="client" columnName="tech_created_date" columnDataType="${datetimeType}"/>
+        <dropDefaultValue tableName="client" columnName="tech_updated_date" columnDataType="${datetimeType}"/>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20231227142246-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/client.csv"
+                  separator=";"
+                  tableName="client"
+                  usePreparedStatements="true">
+            <column name="id" type="numeric"/>
+            <column name="client_id" type="string"/>
+            <column name="created_date" type="string"/>
+            <column name="updated_date" type="string"/>
+            <column name="deleted_date" type="string"/>
+            <column name="lastname" type="string"/>
+            <column name="firstname" type="string"/>
+            <column name="gender" type="string"/>
+            <column name="salutation" type="string"/>
+            <column name="title" type="string"/>
+            <column name="birthday_day" type="numeric"/>
+            <column name="birthday_month" type="numeric"/>
+            <column name="birthday_alt_month" type="numeric"/>
+            <column name="anniversary_day" type="numeric"/>
+            <column name="anniversary_month" type="numeric"/>
+            <column name="company" type="string"/>
+            <column name="email" type="string"/>
+            <column name="email_alt" type="string"/>
+            <column name="phone_number" type="string"/>
+            <column name="phone_numberlocale" type="string"/>
+            <column name="phone_numberalt" type="string"/>
+            <column name="phone_numberaltlocale" type="string"/>
+            <column name="address" type="string"/>
+            <column name="address_2" type="string"/>
+            <column name="city" type="string"/>
+            <column name="postal_code" type="string"/>
+            <column name="state" type="string"/>
+            <column name="country" type="string"/>
+            <column name="is_contact_private" type="boolean"/>
+            <column name="is_onetime_guest" type="boolean"/>
+            <column name="status" type="string"/>
+            <column name="loyalty_id" type="string"/>
+            <column name="loyalty_rank" type="numeric"/>
+            <column name="loyalty_tier" type="string"/>
+            <column name="marketing_optin" type="boolean"/>
+            <column name="marketing_optints" type="string"/>
+            <column name="marketing_opt_outts" type="string"/>
+            <column name="has_billing_profile" type="boolean"/>
+            <column name="notes" type="string"/>
+            <column name="private_notes" type="string"/>
+            <column name="tags" type="string"/>
+            <column name="total_visits" type="numeric"/>
+            <column name="total_covers" type="numeric"/>
+            <column name="total_cancellations" type="numeric"/>
+            <column name="total_no_shows" type="numeric"/>
+            <column name="total_spend" type="numeric"/>
+            <column name="total_spend_per_cover" type="numeric"/>
+            <column name="totalspend_per_visit" type="numeric"/>
+            <column name="avg_rating" type="numeric"/>
+            <column name="reference_code" type="string"/>
+            <column name="external_user_id" type="string"/>
+            <column name="venue_group_id" type="string"/>
+            <column name="birthday_alt_day" type="numeric"/>
+            <column name="user_id" type="string"/>
+            <column name="user_name" type="string"/>
+            <column name="total_order_count" type="numeric"/>
+            <column name="preferred_language_code" type="string"/>
+            <column name="tech_lineage" type="string"/>
+            <column name="tech_created_date" type="date"/>
+            <column name="tech_updated_date" type="date"/>
+            <column name="tech_mapping" type="string"/>
+            <column name="tech_comment" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+</databaseChangeLog>
